@@ -19,8 +19,12 @@ function unleashDog(dogName,dogBreed){
 let routine = [wakeDog, leashDog, walkToPark,throwFrisbee,walkHome,unleashDog]; 
 
 function exerciseDog(dogName,dogBreed){
+ let routine.wakeDog(dogName,dogBreed); 
+ routine.leashDog(dogName,dogBreed); 
+ routine.walkToPark(dogName,dogBreed); 
+ routine.throwFrisbee(dogName,dogBreed); 
+ routine.walkHome(dogName,dogBreed); 
  routine.unleashDog(dogName,dogBreed); 
-  
  
 }
 const executedMessages = exerciseDog("Esther", "Dalmation");
