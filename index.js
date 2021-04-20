@@ -25,7 +25,7 @@ function exerciseDog(dogName,dogBreed){
  routine.throwFrisbee(dogName,dogBreed), 
  routine.walkHome(dogName,dogBreed),
  routine.unleashDog(dogName,dogBreed),
- 
+ ]
  
 }
 const executedMessages = exerciseDog("Esther", "Dalmation");
