@@ -26,6 +26,7 @@ throwFrisbee(dogName,dogBreed),
  walkHome(dogName,dogBreed),
  unleashDog(dogName,dogBreed),
  ]
- 
+ const result = successMessages;
+ return result
 }
 const executedMessages = exerciseDog("Esther", "Dalmation");
