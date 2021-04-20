@@ -19,12 +19,8 @@ function unleashDog(dogName,dogBreed){
 let routine = [wakeDog, leashDog, walkToPark,throwFrisbee,walkHome,unleashDog]; 
 
 function exerciseDog(dogName,dogBreed){
-  const successMessages = new Array;
-  for(let i=0; i<=routine.length; i++)
-  {
-    let result = routine[i](dogName,dogBreed);
-   return result ;   
-  }
+  
+  
  
 }
 const executedMessages = exerciseDog("Esther", "Dalmation");
